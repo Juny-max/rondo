@@ -1,0 +1,44 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-display: 'Unbounded', system-ui, sans-serif;
+    --font-body: 'Plus Jakarta Sans', system-ui, sans-serif;
+    --font-mono: 'JetBrains Mono', ui-monospace, monospace;
+  }
+
+  html {
+    font-family: var(--font-body);
+    background-color: #14110f;
+    color: #ffffff;
+    overflow-x: clip;
+  }
+
+  body {
+    margin: 0;
+    padding: 0;
+    overflow-x: clip;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+}
+
+.font-display {
+  font-family: var(--font-display);
+  letter-spacing: -0.035em;
+}
+
+.font-mono-tabular {
+  font-family: var(--font-mono);
+  font-variant-numeric: tabular-nums;
+}
+
+.text-balance {
+  text-wrap: balance;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}

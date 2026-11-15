@@ -1,0 +1,6 @@
+{
+  "name": "rondo — Artisanal 3D Brioche Donuts",
+  "description": "Interactive 3D culinary showcase and custom box configurator for rondo artisanal brioche donuts.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
